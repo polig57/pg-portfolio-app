@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: brown;
+}
+header {
+    background-color: black;
+    width: auto;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.skills-section {
+
+}
+h1, p {
+    color: aliceblue;
+}
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+.h2-tech-skills {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+.h2-software-apps {
+    display: flex;
+    justify-content: center;
+}
