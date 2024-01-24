@@ -1,8 +1,22 @@
+/* Base reset for padding and margin for all elements */
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/* Container for centering the content */
+.container-main {
+    /*width: 80%;*/
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
 html {
     box-sizing: border-box;
 }
 body {
-    background-color: brown;
+background-color: brown;
 }
 header {
     background-color: black;
@@ -15,15 +29,18 @@ header {
     align-content: center;
     justify-content: center;
 }
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*display: block;*/
+    margin: 20px auto;
+}
 h1, p {
     color: aliceblue;
 }
 .skills {
     text-align: center;
-}
-.skills h3 {
-    width: fit-content;
-    text-align: end;
 }
 .projects {
     display: flex;
@@ -48,12 +65,15 @@ h1, p {
     background: #ccc;
     color: #333;
 }
-
+#timeline .entry-content {
+    padding-top: 5px;
+    padding-left: 2px;
+}
 /* Style for the job description content */
 #timeline .entry-content p {
     padding: 5px 10px;
     background: black;
-    border-left: 3px solid #333;
+    /*border-left: 3px solid #333;*/
     display: block;
 }
 /* Adjustments for active class */
@@ -87,6 +107,19 @@ h1, p {
     display: flex;
     justify-content: center;
 }
+footer {
+    background-color: black;
+    width: auto;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
 .footer-info {
     text-align: center;
+    width: fit-content;
+    padding-left: 15px;
 }

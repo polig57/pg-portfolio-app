@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="container">
-    <header>
-        <img src="IMGHERE" alt="headshot">
-        <h1 id="name"> First Last </h1>
-        <p id="contactInfo"> Location | Veteran | Software Developer </p>
-    </header>
-</div>
+<div class="container-main">
+<header>
+    <img src="assets/imgs/headshot.jpg" alt="headshot" class="headshot">
+    <h1 id="name"> First Last </h1>
+    <p id="contactInfo"> Location | Veteran | Software Developer </p>
+</header>
 <main class="container">
     <section id="skillsSection">
         <div class="container">
@@ -89,6 +88,7 @@
         <h2>Employment History</h2>
         <div id="timeline"></div> <!-- Placeholder for the JavaScript array -->
     </section>
+<!--    This is another style to have employment history show    -->
 <!--    <section id="employmentSection">-->
 <!--        <div class="container">-->
 <!--            <h2>Employment History Lives Here</h2>-->
@@ -193,33 +193,20 @@
     </section>
 </main>
 <hr>
+</div>
+
 <footer>
-    <div class="container">
-        <div>
-            <img src="IMGHERE" alt="IMGAGAIN">
-        </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 col-md-3 footer-info"><p>Ph: 421-232-3211</p></div>
-                <div class="col-12 col-md-3 footer-info"><p>Em: osdopsdop@google.com</p></div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-3 footer-info"><p>LI: @osdo.linkedin</p></div>
-                <div class="col-12 col-md-3 footer-info"><p>Gh: @osdo57</p></div>
-            </div>
-        </div>
-        <div>
-            <div class="container-fluid col-4">
-                <div class="row">
-                    <div class="col-12 col-md-3 footer-info"><a href="https://github.com">GitHub</a></div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-3 footer-info"><a href="https://www.linkedin.com">LinkedIn</a></div>
-                </div>
-            </div>
-        </div>
+    <img src="assets/imgs/headshot.jpg" alt="headshot-img" class="headshot">
+    <div class="footer-info">
+        <p>Ph: 421-232-3211</p>
+        <p>Em: osdopsdop@google.com</p>
+        <p>LI: @osdo.linkedin</p>
+        <p>Gh: @osdo57</p>
+        <a href="https://github.com">GitHub</a>
+        <a href="https://www.linkedin.com">LinkedIn</a>
     </div>
 </footer>
+
 <script src="js/script.js"></script>
 </body>
 </html>
