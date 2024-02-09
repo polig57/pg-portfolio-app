@@ -44,7 +44,14 @@ h1, p {
 }
 .projects {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+}
+.card-body {
+    /*width: 250px;*/
+}
+.feature-list {
+    display: flex;
+    flex-direction: column;
 }
 .github-repo {
     display: flex;
